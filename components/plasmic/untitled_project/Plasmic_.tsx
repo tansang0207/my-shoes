@@ -59,6 +59,8 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: be4RTSGtnJ9aw3XsPC1sjR/projectcss
@@ -170,19 +172,18 @@ function Plasmic___RenderFunc(props: {
           <PlasmicImg__
             alt={""}
             className={classNames(sty.img__uwDj6)}
-            displayHeight={"70px"}
+            displayHeight={"50px"}
             displayMaxHeight={"none"}
             displayMaxWidth={"100%"}
             displayMinHeight={"0"}
             displayMinWidth={"0"}
-            displayWidth={"70px"}
+            displayWidth={"50px"}
+            height={``}
             loading={"lazy"}
-            src={{
-              src: "/plasmic/untitled_project/images/_1492102025282216600Png.jpg",
-              fullWidth: 600,
-              fullHeight: 801,
-              aspectRatio: undefined
-            }}
+            src={
+              "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png"
+            }
+            width={``}
           />
 
           <PlasmicImg__
